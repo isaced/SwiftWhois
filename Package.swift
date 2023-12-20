@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftWhois",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
         .macOS(.v10_15),
         .watchOS(.v7),
         .tvOS(.v12)
