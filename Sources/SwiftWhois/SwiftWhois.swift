@@ -1,3 +1,10 @@
+//
+//  SwiftWhois.swift
+//
+//
+//  Created by isaced on 2023/12/20.
+//
+
 import Foundation
 
 /**

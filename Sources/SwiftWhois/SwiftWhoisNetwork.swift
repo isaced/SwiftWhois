@@ -1,5 +1,5 @@
 //
-//  Network.swift
+//  SwiftWhoisNetwork.swift
 //
 //
 //  Created by isaced on 2023/12/20.
