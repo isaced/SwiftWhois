@@ -1,4 +1,4 @@
-# SwiftWhois
+# SwiftWhois <a href="https://github.com/isaced/SwiftWhois/actions/workflows/test.yml"><img src="https://github.com/isaced/SwiftWhois/actions/workflows/test.yml/badge.svg"></a> <a href="https://swift.org/package-manager/"><img src="https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat"></a> <a href="https://raw.githubusercontent.com/isaced/SwiftWhois/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-black"></a>
 
 SwiftWhois is a Swift library for retrieving WHOIS information of domains.
 
