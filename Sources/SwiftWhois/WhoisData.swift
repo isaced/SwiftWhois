@@ -9,37 +9,36 @@ import Foundation
 
 /// The data returned from a Whois query
 public struct WhoisData {
-
     /// The domain name, e.g. example.com
-    var domainName: String?
+    public var domainName: String?
 
     /// The registrar
-    var registrar: String?
+    public var registrar: String?
 
     /// The registrar Whois server
-    var registrarWhoisServer: String?
+    public var registrarWhoisServer: String?
 
     /// The registrant contact email
-    var registrantContactEmail: String?
+    public var registrantContactEmail: String?
 
     /// The registrant
-    var registrant: String?
+    public var registrant: String?
 
     /// The creation date
-    var creationDate: String?
+    public var creationDate: String?
 
     /// The expiration date
-    var expirationDate: String?
+    public var expirationDate: String?
 
     /// The last updated date
-    var updateDate: String?
+    public var updateDate: String?
 
     /// The name servers, e.g. ns1.google.com
-    var nameServers: [String]?
+    public var nameServers: [String]?
 
     /// The domain status, e.g. clientTransferProhibited
-    var domainStatus: [String]?
+    public var domainStatus: [String]?
 
     /// The raw Whois data
-    var rawData: String?
+    public var rawData: String?
 }
