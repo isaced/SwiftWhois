@@ -2,6 +2,16 @@
 
 SwiftWhois is a Swift library for retrieving WHOIS information of domains.
 
+## Features
+
+- [x] Automatically select WHOIS server, no need to specify the WHOIS server
+- [x] Structured WHOIS data, easy to use
+- [x] Async/await support
+
+## Requirements
+
+iOS 13.0+ / macOS 10.15+ / tvOS 12.0+ / watchOS 7.0+
+
 ## Installation
 
 ### SPM
