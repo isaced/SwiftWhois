@@ -59,7 +59,12 @@ struct SwiftWhoisParser {
                 whoisData.nameServers = nameServers
             case "domain status":
                 var domainStatus = whoisData.domainStatus ?? []
-                domainStatus.append(value.lowercased())
+
+                // "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited"
+                if let status = value.split(separator: " ").first, !status.isEmpty {
+                    domainStatus.append(String(status))
+                }
+
                 whoisData.domainStatus = domainStatus
             default:
                 break
